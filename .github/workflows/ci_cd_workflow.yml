@@ -1,0 +1,7 @@
+project_root/
+├── .github/
+│   └── workflows/
+│       └── ci_cd_workflow.yml
+├── movie_recommender.py
+├── requirements.txt
+└── README.md
