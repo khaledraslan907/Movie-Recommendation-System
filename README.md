@@ -1,6 +1,7 @@
 # Movie-Recommendation-System
 This project is a simple movie recommendation system built using Python and deployed using Streamlit. Users can input a movie name and receive recommendations for similar movies based on their features.
-Features
+
+# Features
 
 Input a movie name to get 10 recommended movies.
 
@@ -8,11 +9,11 @@ Uses TF-IDF Vectorization and Cosine Similarity to find similar movies.
 
 Streamlit-based web interface.
 
-Dataset
+# Dataset
 
 The application uses a dataset (movies.csv) containing movie information. Ensure this file is placed in the project directory.
 
-CI/CD
+# CI/CD
 
 This project includes a GitHub Actions workflow for continuous integration and deployment. To set up:
 
