@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load and preprocess the dataset
 def load_data():
     # Replace 'movies.csv' with the actual path to your dataset
-    movies_data = pd.read_csv(r'E:\Data analysis\Projects\learning\18\movies.csv')
+    movies_data = pd.read_csv('movies.csv')
     selected_features = ['genres', 'keywords', 'tagline', 'cast', 'director']
     
     for feature in selected_features:
