@@ -1,5 +1,4 @@
 setuptools==66.1.1
-wheel
-streamlit==1.22.0
+numpy>=1.25.0
 pandas==2.0.3
-numpy==1.24.0
+streamlit==1.22.0
